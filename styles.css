@@ -1,0 +1,92 @@
+@import url("https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700,800|Rochester");
+
+body {
+  background-color: #f8f9fa;
+  color: #20262d;
+  font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+button {
+  cursor: pointer;
+}
+
+.bg-dark {
+  background-color: #35404b !important;
+}
+
+.navbar-dark .navbar-brand {
+  color: #f8f9fa;
+}
+
+.navbar-dark .navbar-brand:focus,
+.navbar-dark .navbar-brand:hover {
+  color: #f8f9fa;
+}
+
+.navbar-dark .navbar-nav .nav-link {
+  color: #b4bfca;
+}
+
+.navbar-dark .navbar-nav .nav-link:focus,
+.navbar-dark .navbar-nav .nav-link:hover {
+  color: #f8f9fa;
+}
+
+.navbar-dark .navbar-nav .active > .nav-link,
+.navbar-dark .navbar-nav .nav-link.active,
+.navbar-dark .navbar-nav .nav-link.show,
+.navbar-dark .navbar-nav .show > .nav-link {
+  color: #f8f9fa;
+}
+
+.navbar-dark .navbar-toggler {
+  border-color: transparent;
+  color: #b4bfca;
+}
+
+.navbar-dark .navbar-toggler-icon {
+  background-image: url(
+    "data:image/svg+xml;charset=utf8,%3Csvg \
+    viewBox='0 0 30 30' \
+    xmlns='http://www.w3.org/2000/svg'%3E%3Cpath \
+    stroke='rgba(180, 191, 202, 1)' \
+    stroke-width='2' \
+    stroke-linecap='round' \
+    stroke-miterlimit='10' \
+    d='M4 7h22M4 15h22M4 23h22'/%3E%3C/svg%3E"
+  )
+}
+
+.navbar-brand {
+  margin-right: 0.8rem;
+  padding-bottom: 0.1rem;
+  padding-top: 0.1rem;
+}
+
+.spacer {
+  border-bottom: 1px solid #b4bfca;
+  margin: 0 auto;
+  max-width: 400px;
+  width: 100%;
+}
+
+.home-content {
+  margin-top: 7rem;
+}
+
+.home-content h1 {
+  font-size: 3rem;
+}
+
+.home-content h2 {
+  font-size: 1.9rem;
+}
+
+.merry-christmas {
+  color: #b30000;
+  font-family: "Rochester", cursive;
+}
+
+.merry-christmas h1 {
+  font-size: 2.7rem;
+}
